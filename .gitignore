@@ -1,0 +1,21 @@
+# Ignore www, but keep directory
+/statsx_content/www/*
+!/statsx_content/www/.gitkeep
+
+# Ignore db, but keep directory
+/statsx_content/db/*
+!/statsx_content/db/.gitkeep
+
+# Save base nginx config
+/statsx_content/nginx_conf.d/*
+!/statsx_content/nginx_conf.d/nginx.conf
+
+# Allow override PHP image
+!/php-docker/Dockerfile
+!/php-docker/php.ini
+
+# Allow override docker-compose
+/docker-compose.override.yml*
+
+# TODO: write example file
+!/docker-compose.override.yml-example

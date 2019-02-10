@@ -1,0 +1,6 @@
+2019/02/10 10:47:28 [emerg] 1#1: unknown "mage_root" variable
+2019/02/10 10:47:58 [emerg] 1#1: unknown "mage_root" variable
+2019/02/10 10:48:01 [emerg] 1#1: unknown "mage_root" variable
+2019/02/10 10:49:26 [error] 6#6: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.22.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.22.0.3:9000", host: "localhost"
+2019/02/10 10:49:26 [error] 6#6: *1 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.22.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2019/02/10 10:49:27 [error] 6#6: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.22.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.22.0.3:9000", host: "localhost"
