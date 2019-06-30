@@ -6,8 +6,7 @@ services:
     image: nginx:1.15.8
     container_name: nginx
     ports:
-      - "80:80"
-      - "443:443"
+      - "8050:80"
     volumes:
       - ./statsx_content/www:/var/www/
       - ./statsx_content/logs:/var/log/nginx/
@@ -16,8 +15,6 @@ services:
       - php
   mysql:
     image: mysql:5.7
-    ports:
-      - "3306:3306"
     container_name: mysql
     # Add MYSQL_USER, MYSQL_PASSWORD to your override file
     environment:
