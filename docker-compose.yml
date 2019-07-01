@@ -14,7 +14,7 @@ services:
     links:
       - php
   mysql:
-    image: mysql:5.7
+    image: mysql:5.5
     container_name: mysql
     # Add MYSQL_USER, MYSQL_PASSWORD to your override file
     environment:
