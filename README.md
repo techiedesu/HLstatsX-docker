@@ -39,7 +39,7 @@ sed -i '54s/.*/define("DB_NAME", "hlstatsx");/' statsx_content/www/config.php
 Otherwise, you can manually config file and use mysql connection data:
 ```
 User: root
-Password:
+Password: hlstatsx
 Database: hlstatsx 
 ```
 
@@ -50,8 +50,8 @@ docker-compose up -d
 
 5. Setup hlstatsx database
 
-```
-WIP
+```bash
+cat hlstatsx-community-edition/sql/install.sql | docker exec -i mysql mysql -uroot -proot -Dhlstatsx
 ```
 
 6. Open http://localhost:8050/
