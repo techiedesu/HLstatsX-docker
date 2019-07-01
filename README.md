@@ -3,10 +3,6 @@
 HLstatsX docker file for development etc.
 
 
-## License
-
-I'm not using HLstatsX's source code, so... MIT!
-
 ## Requirements
 1. Docker 17.06.0+
 2. Docker-Compose 3.3+
