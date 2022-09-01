@@ -28,9 +28,9 @@ ln -s  $("pwd")/hlstatsx-community-edition/web $("pwd")/statsx_content/www
 
 4. Create config file for hlstatsx or copy existing `sample.config.php`
 ```bash
-sed -i '48s/.*/define("DB_USER", "root");/' statsx_content/www/config.php
-sed -i '51s/.*/define("DB_PASS", "root");/' statsx_content/www/config.php
-sed -i '54s/.*/define("DB_NAME", "hlstatsx");/' statsx_content/www/config.php
+sed -i '48s/.*/define("DB_USER", "root");/' statsx_content/www/web/config.php
+sed -i '51s/.*/define("DB_PASS", "root");/' statsx_content/www/web/config.php
+sed -i '54s/.*/define("DB_NAME", "hlstatsx");/' statsx_content/www/web/config.php
 ```
 Otherwise, you can manually config file and use mysql connection data:
 ```
